@@ -1,0 +1,48 @@
+body {/*   Applique le style à tout la page */
+background-color:bisque;/* definit une couleur de fond gris clair*/
+ font-family: Arial, sans-serif ; /* change la ^police d'ecriture */
+ margin: 20px; /* Ajoute un espace autour du contenue*/
+}
+h1{ /* selecteur : cible toutes les balises h1 */
+color: darkblue; /* change la couleur du texte */
+text-align:  center; /* centre le text*/
+}
+h2{
+    /*apllique le stylr au sous titre*/
+    color: #333;
+}
+p{
+    /* Applique le style au paragraph*/
+    font-size: 16px;
+    line-height: 1.5;/* ameliore l'espacement entre les lignes*/
+}
+a{ /* Apllique le style a tous les lien*/
+text-decoration: none;
+color: blue;
+margin-right: 15px;
+}
+a:hover {/* Applique le style aux lorsque la souris âsse sur le lien*/
+color: red;
+}
+ul{
+    background-color: white;
+    padding: 10px;
+    }
+    li{
+        margin-bottom: 5px;
+    }
+    img{
+        border-radius:10px;
+        margin-top: 10p;
+      }
+.section{
+background-color:aqua;
+padding: 15px;
+margin-bottom:20px ;
+border-radius: 5px;
+
+ }
+ .highlight {
+    color: green;
+    font-weight:bold;
+ }
