@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Contact -Mon mini-site</title>
+          <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Page de contact </h1>
+        <nav> 
+         <p><a href="index.html"> Accueil</a></p><!-- crée un lien vers la page d'acceuil-->
+          <p><a href="presentation.html"> Présentation </a></p>
+          <p><a href="contact.html"> Contact</a></p>
+        </nav>
+            <div class="container"><!-- conteneur principal qui sera utilisé
+              avec flexbook-->
+<main><!-- Zone principal du contenue-->
+  <h2>Bienvenue</h2>
+  <p>Ce site a été améliorer avec flexbook pour une meilleur organization</p>
+</main>
+<aside><!--Barre laterale-->
+<h2>Informations</h2><!-- titre de la barre laterale-->
+<p> cette zone peut contenir des informations supplémentaires</p>
+</aside>
+</div>
+        <h2> Formulaire de contact</h2>
+        <p>Veuillez remplir ce formulaire pour envoyer un message.</p>
+        <form> <!--Ouvre le formulaire de contact-->
+            <label for="nom">Nom :</label><!--crée un champ permettant de saisir le nom-->
+            <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required><!--crée un champ permettant de saisir le nom-->
+            <br><!--effectue un retour a la ligne pour séparer les champs-->
+            <br> <!-- Ajoute une ligne vide pour ameliorer la lisibiliter -->
+            <label for="Prenom">prénom :</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Entrez votre prenom" required>
+            <br>
+            <br>
+             <label for="email">Address email :</label>
+              <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+              <br>
+              <br>
+              <label for="motif"> motif du message</label>
+              <select id="motif" name="motif" required>
+                <option value="">-- choisir un motif-- </option>
+                <option value="information"> Demande d'information</option>
+                <option value="stage"> Demande de stage</option>
+                <option value="projet"> proposition de projet</option>
+                <option value="autre"> Aytre demande</option>
+              </select>
+              <p> Statut du visiteur </p>
+              <input Type="radio" id="etudiant" name="statut" value="etudiant" required>
+              <label for="etudiant"> Etudiant </label>
+              <br>
+              <input type="radio" id="enseigant" name="statut" value="etudiant">
+              <label for="enseigant"> Enseignant</label>
+              <br>
+              <input type="radio" id="professionel" name="statut" value="professionel">
+              <label for="professionel" > professionel</label>
+              <br>
+            
+            
+              <br>
+               <label for="message">Message :</label>
+               <br>
+               <textarea id="message" name="message" rows="5" cols="40" placeholder="ecriver votre message ici" required ></textarea><!--crée une zone de texte longue pour saisir le message-->
+               <br>
+               <br>
+               <input type="checkbox" id="confirmation" name="confirmation" required>
+               <label for="confirmation">Je confirme que les informations saisies sont correctes.</label>
+               <br>
+               <br>
+               <button type="submit"> Envoyer </button><!--crée un bouton permettant de soumettre le formulaire-->
+               <button type="reset"> Effacer1 </button> 
+        </form>
+      <footer><!--pied de page-->
+<p>¤ 2026 - Mon mini-site</p>
+</footer>
+
+</body>
+</html>

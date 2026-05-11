@@ -1,0 +1,98 @@
+body {/*   Applique le style à tout la page */
+background-color:bisque;/* definit une couleur de fond gris clair*/
+ font-family: Arial, sans-serif ; /* change la ^police d'ecriture */
+ margin: 20px; /* Ajoute un espace autour du contenue*/
+}
+h1{ /* selecteur : cible toutes les balises h1 */
+color: darkblue; /* change la couleur du texte */
+text-align:  center; /* centre le text*/
+}
+h2{
+    /*apllique le stylr au sous titre*/
+    color:brown;
+}
+p{
+    /* Applique le style au paragraph*/
+    font-size: 16px;
+    line-height: 1.5;/* ameliore l'espacement entre les lignes*/
+}
+a{ /* Apllique le style a tous les lien*/
+text-decoration: none;
+color: blue;
+margin-right: 15px;
+}
+a:hover {/* Applique le style aux lorsque la souris âsse sur le lien*/
+color:aqua;
+}
+ul{
+    background-color: white;
+    padding: 10px;
+}
+    li{
+        margin-bottom: 5px;
+    }
+    img{
+        border-radius:10px;
+        margin-top: 10p;
+      }
+.section{
+background-color:aqua;
+padding: 15px;
+margin-bottom:20px ;
+border-radius: 5px;
+
+ }
+ .highlight {
+    color: green;
+    font-weight:bold;
+ }
+ .container{ /* Definit le conteneur princpal*/
+display: flex;/*Active le  mode flexbox   */
+}
+main{/*zone principal*/
+flex: 3; /*Prend 3 parts de l'espace disponible*/
+padding: 20px; /*Ajoute un espace intérieure */
+background-color: white;
+}
+aside{ /*Bare laterale */
+flex: 1; /*Prend un part espace*/
+padding: 20px;
+background-color: #333;
+}
+header{
+background-color: darkblue;
+color: white;
+padding: 15px;
+text-align: center;
+}
+
+nav{
+    display: flex;/*Active  flexbox*/
+justify-content: center;/*centre les lignes horizontalement*/
+background-color: burlywood;
+padding: 10px;
+}
+nav a{
+color: white;
+margin: 15px;
+text-decoration: none;/*supprime le soulignement*/
+}
+nav a :hover { /*Effet au survol*/
+color: yellow;  /*Change la couleur*/
+
+
+
+}
+.container{
+display: flex;
+flex-direction: ROW;
+
+
+}
+footer{
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
